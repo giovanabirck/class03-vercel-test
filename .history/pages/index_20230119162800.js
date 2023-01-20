@@ -4,7 +4,7 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import data from '../data/education.json'
 import { useState } from 'react'
-//import Card from '../components/card'
+import Card from '../components/card'
 import Link from 'next/link' 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -30,10 +30,7 @@ export default function Home() {
           information && information.map((info, index) => {
             if(info.department.toLowerCase() === "business") {
               return(
-                <div key={index}>
-                  {info.degree}
-                  {/*<Card key={index} degree={info.degree} color="red" font="10px"/>*/}
-                </div>
+                <Card key={index} degree={info.degree} color="red" font="10px"/>
               )
             }
           })
@@ -43,10 +40,7 @@ export default function Home() {
           information && information.map((info, index) => {
             if(info.department.toLowerCase() === "computing") {
               return(
-                <div key={index}>
-                  {info.degree}
-                  {/*<Card key={index} degree={info.degree} color="blue" font="50px"/>*/}
-                </div>
+                <Card key={index} degree={info.degree} color="blue" font="50px"/>
               )
             }
           })
