@@ -1,0 +1,27 @@
+[
+
+    {
+        "firstName": "Samantha",
+        "lastName": "Mortis",
+        "pronouns": "she/her",
+        "jobTitle": "Director of Education",
+        "shorBio": ""
+    },
+
+    {
+        "firstName": "James",
+        "lastName": "Dennis",
+        "pronouns": "she/her",
+        "jobTitle": "International Administrator"
+        "shorBio": ""
+
+    },
+
+    {
+        "firstName": "Anna",
+        "lastName": "Gomez",
+        "pronouns": "she/her",
+        "jobTitle": "Head of Business Department"
+    }
+
+]

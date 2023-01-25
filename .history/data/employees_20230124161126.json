@@ -1,0 +1,29 @@
+[
+
+    {
+        "firstName": "Samantha",
+        "lastName": "Mortis"
+        "gpa": 3.8,
+        "department": "Business",
+        "degree": "Finance",
+        "graduted": 2014
+    },
+
+    {
+        "firstName": "James",
+        "lastName": ""
+        "gpa": 3.5,
+        "department": "Business",
+        "degree": "Accounting",
+        "graduted": 2010
+    },
+
+    {
+        "firstName": "Anna",
+        "gpa": 3.2,
+        "department": "Computing",
+        "degree": "Applied Software Development Certificate",
+        "graduted": 2018
+    }
+
+]

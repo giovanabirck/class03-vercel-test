@@ -1,0 +1,23 @@
+[
+
+    {
+        "firstName": "Samantha",
+        "lastName": "Mortis",
+        "jobTitle": "Director of Education"
+    },
+
+    {
+        "firstName": "James",
+        "lastName": "Dennis",
+        "jobTitle": "International Administrator"
+    },
+
+    {
+        "firstName": "Anna",
+        "lastName": "Gomez",
+        "jobTitle": "Head of Business Department",
+        "degree": "Applied Software Development Certificate",
+        "graduted": 2018
+    }
+
+]
