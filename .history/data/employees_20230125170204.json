@@ -1,0 +1,27 @@
+[
+
+    {
+        "firstName": "Samantha ",
+        "lastName": "Mortis ",
+        "pronouns": "(she/her)",
+        "jobTitle": "Director of Education",
+        "shortBio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+
+    {
+        "firstName": "James ",
+        "lastName": "Dennis ",
+        "pronouns": "(he/him)",
+        "jobTitle": "International Administrator",
+        "shortBio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+
+    {
+        "firstName": "Anna ",
+        "lastName": "Gomez",
+        "pronouns": "(they/their)",
+        "jobTitle": "Head of Business Department",
+        "shortBio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+
+]
