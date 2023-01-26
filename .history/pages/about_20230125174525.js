@@ -27,7 +27,8 @@ export default function About() {
                 information && information.map((info, index) => {
                     return (
                         <div key={index}>
-                            <CardEmployees/>
+                            <CardEmployees
+                            />
                         </div>
                     )
                 }
