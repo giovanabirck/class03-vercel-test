@@ -33,6 +33,7 @@ export default function Home() {
               return(
                 <div key={index}>
                   <Card key={index} degree={info.degree}/>
+                degree={info.department}/>
                 </div>
               )
             }

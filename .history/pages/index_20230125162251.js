@@ -32,7 +32,7 @@ export default function Home() {
             if(info.department === "Business") {
               return(
                 <div key={index}>
-                  <Card key={index} degree={info.degree}/>
+                  <Card key={index} degree={info.degree; } degree={info.department}/>
                 </div>
               )
             }

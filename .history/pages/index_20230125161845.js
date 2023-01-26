@@ -24,6 +24,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <MenuPrograms/>
+        <Link
       </Head>
       <main className={styles.main}>
 
@@ -32,6 +33,7 @@ export default function Home() {
             if(info.department === "Business") {
               return(
                 <div key={index}>
+            
                   <Card key={index} degree={info.degree}/>
                 </div>
               )
@@ -44,6 +46,7 @@ export default function Home() {
             if(info.department === "Computing") {
               return(
                 <div key={index}>
+                  {info.degree}
                   <Card key={index} degree={info.degree}/>
                 </div>
               )
