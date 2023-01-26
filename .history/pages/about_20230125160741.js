@@ -1,13 +1,13 @@
 import data from "../data/employees.json"
 import { useState } from "react"
-import MenuEmployees from "@/components/MenuEmployees"
+import Menu from '../components/Menu' 
 
 export default function About() {
     const [information, setInformation] = useState([...data])
 
     return(
         <>
-         <MenuEmployees/>
+         <MenuEmpl/>
 
             {
                 information && information.map((info, index) => {

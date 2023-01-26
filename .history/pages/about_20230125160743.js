@@ -1,5 +1,6 @@
 import data from "../data/employees.json"
 import { useState } from "react"
+import Menu from '../components/Menu' 
 import MenuEmployees from "@/components/MenuEmployees"
 
 export default function About() {

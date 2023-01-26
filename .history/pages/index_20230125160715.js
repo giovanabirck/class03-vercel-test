@@ -7,6 +7,7 @@ import { useState } from 'react'
 import Card from '../components/Card'
 import Link from 'next/link'
 import MenuPrograms from '../components/MenuPrograms'
+import MenuEmployees from '../components
 
 const inter = Inter({ subsets: ['latin'] })
 

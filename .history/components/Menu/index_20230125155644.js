@@ -2,58 +2,36 @@
 export default function Menu() {
     return(
         <>
-        <div style={{
+        <div className="top-menu" style={{
+            backgroundColor: "white",
+            width: "200%",
             display: "flex",
+            height: "160px",
+            alignItems: "center",
+            justifyContent: "space-between",
         }}>
-            <div className="lateral-menu" style={{
-                backgroundColor: 'white',
-                width: "20%",
-                innerHeight: "500px",
-                padding: "40px 40px 350px 24px",
-                fontFamily: "Arial",
-                fontWeight: "bold",
-                color: "#A8A8A8",
-                }}>
 
-                <h1 style={{
-                    fontFamily: "Impact",
-                    fontSize: "40px",
-                    color: "#5F7AF2",
-                    padding: "16px 16px 56px 16px",
-                }}>Future
-                    <br></br>
-                    University
-                </h1>
-
+            <h1 style={{
+                fontFamily: "Impact",
+                fontSize: "40px",
+                color: "#5F7AF2",
+                padding: "40px",
+            }}>Future
                 <br></br>
+                University
+                </h1>
 
                 <a className="a-employees" href="about" style={{padding:"16px"}}>Employees</a>
 
-                <br></br>
-
                 <p className="p-programs" style={{padding:"48px 16px 16px 16px", color: "#5F7AF2"}}>Programs</p>
 
-                <br></br>
+                <p style={{padding:"16px"}}>Lorem ipsum</p>
 
                 <p style={{padding:"16px"}}>Lorem ipsum</p>
 
-                <br></br>
-
                 <p style={{padding:"16px"}}>Lorem ipsum</p>
 
-                <br></br>
 
-                <p style={{padding:"16px"}}>Lorem ipsum</p>
-            </div>
-            <div>
-                <div className="top-menu" style={{
-                    backgroundColor: "white",
-                    width: "200%",
-                    display: "flex",
-                    height: "96px",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                }}>
                     <input placeholder="search" style={{
                         fontFamily: "Arial",
                         fontSize: "14px",
@@ -79,8 +57,6 @@ export default function Menu() {
                     height: "89%"
                 }}>
                 </div>
-            </div>
-        </div>
         </>
     )
 }
