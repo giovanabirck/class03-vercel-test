@@ -24,7 +24,7 @@ export default function MenuPrograms() {
                 University
             </h1>
 
-            <p style={{padding:"16px", color: "#5F7AF2"}}>Employees</p>
+            <p href="/" style={{padding:"16px", color: "#5F7AF2"}}>Employees</p>
 
             <a href="/" style={{padding:"16px"}}>Programs</a>
 
