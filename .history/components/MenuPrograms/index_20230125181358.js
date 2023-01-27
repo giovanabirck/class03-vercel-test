@@ -11,14 +11,14 @@ export default function MenuPrograms() {
             display: "flex",
             height: "20%",
             alignItems: "center",
-            justifyContent: "space-between"
+            justifyContent: "space-between",
             }}>
 
             <h1 style={{
                 fontFamily: "Impact",
                 fontSize: "40px",
                 color: "#5F7AF2",
-                padding: "32px"
+                padding: "32px",
                 }}>Future
             <br></br>
                 University

@@ -18,7 +18,7 @@ export default function MenuPrograms() {
                 fontFamily: "Impact",
                 fontSize: "40px",
                 color: "#5F7AF2",
-                padding: "32px"
+                padding: "32px",
                 }}>Future
             <br></br>
                 University

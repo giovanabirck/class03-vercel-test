@@ -1,3 +1,4 @@
+import Link from 'next/link'
 
 export default function MenuPrograms() {
     return(
@@ -11,20 +12,20 @@ export default function MenuPrograms() {
             display: "flex",
             height: "20%",
             alignItems: "center",
-            justifyContent: "space-between"
+            justifyContent: "space-between",
             }}>
 
             <h1 style={{
                 fontFamily: "Impact",
                 fontSize: "40px",
                 color: "#5F7AF2",
-                padding: "32px"
+                padding: "32px",
                 }}>Future
             <br></br>
                 University
             </h1>
 
-            <a href="about" style={{padding:"16px"}}>Employees</a>
+            <Link href="./" style={{padding:"16px"}}>Employees</a>
 
             <p style={{padding:"16px", color: "#5F7AF2"}}>Programs</p>
 

@@ -18,15 +18,15 @@ export default function MenuPrograms() {
                 fontFamily: "Impact",
                 fontSize: "40px",
                 color: "#5F7AF2",
-                padding: "32px"
+                padding: "32px",
                 }}>Future
             <br></br>
                 University
             </h1>
 
-            <a href="about" style={{padding:"16px"}}>Employees</a>
+            <p href="about" style={{padding:"16px", color: "#5F7AF2"}}>Employees</p>
 
-            <p style={{padding:"16px", color: "#5F7AF2"}}>Programs</p>
+            <a href="" style={{padding:"16px"}}>Programs</a>
 
             <p style={{padding:"16px"}}>Lorem ipsum</p>
 
